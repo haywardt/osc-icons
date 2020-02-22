@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Hi there!</h1>
+    <svg width="50" height="50" viewbox="0 0 30 50">
+      <rect
+        width="40"
+        height="40"
+        style="fill:black;stroke-width:10;stroke:black;"
+      />
+    </svg>
+    <img src="lander.svg" />
+    <img src="emptyBox.svg" />
+    <img src="blockedBox.svg" />
+    <img src="checkedBox.svg" />
+    <img src="completedBox.svg" />
+    <h3>
+      rotation
+    </h3>
+    <img src="lander.svg" style="height:40px;width:40px;transform:rotate(3612deg);transition:transform 30s" />
+    <br />
+    <h2>
+      scaling?
+    </h2>
+    <img src="completedBox.svg" style="height:30px;width:30px" />
+    <div
+      style="
+        background-image: url(checkedBox.svg);
+        background-size: 100px; /* sets scaling */
+        height: 100px;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-color: gray;
+             color:white;
+             text-align:center;
+      "
+    >
+      used as background
+    </div>
+  </body>
+</html>

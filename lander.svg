@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-30 -40 60 80">
+  <polygon fill="none" stroke="green" stroke-width="2"
+           points="
+                   0,-20 10,-20 20,-10 20,10 10,20 
+                   5,20 10,30 -10,30 -5,20 5,20
+                   -10,20 -20,10 -20,-10 -10,-20 0,-20 
+                   " />
+  <polyline stroke="black" stroke-width="1"
+            points="10,20 20,40 15,40 25,40 20,40 10,20"
+            />
+  <polyline stroke="black" stroke-width="1"
+            points="-10,20 -20,40 -15,40 -25,40 -20,40 -10,20"
+            />
+</svg>
