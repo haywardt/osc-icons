@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  
+  <polyline stroke-width="10" stroke-linecap="square" stroke="black"
+        points="10,25 40,25" />
+  <polyline stroke-width="10" stroke-linecap="square" stroke="black"
+        points="14,36 36,14" />
+  <polyline stroke-width="10" stroke-linecap="square" stroke="black"
+        points="36,36 14,14" />
+  <polyline stroke-width="10" stroke-linecap="square" stroke="black"
+        points="25,10 25,40" />
+  <circle style="fill:white ;stroke-width:10;stroke:black;" 
+          cx="25" cy="25" r="10" />
+  <circle fill="none" stroke-width="3" stroke="white" cx="25" cy="25" r="20" />
+</svg>
